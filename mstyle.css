@@ -29,10 +29,11 @@ header {
 }
 footer {
     
-    position: absolute;
+    position: relative;
     bottom: 0;
     font-size:70%;
     margin: auto;
+    margin-top: 40%;
     width: 100%;
     padding: 0px;
 
