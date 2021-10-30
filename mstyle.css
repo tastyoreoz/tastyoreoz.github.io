@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(180deg, #baecea 0%, #63b3ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+nav {
+    margin: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+
+}
+header {
+    margin: auto;
+    width: 100%;
+    background-image: url(/img/PPE-filtered.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+footer {
+    
+    position: absolute;
+    bottom: 0;
+    font-size:70%;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+
+}
+div {
+    align-content: center;
+}
+h1 {
+    font-family: Proxima Nova,Open Sans,Corbel,Arial,sans-serif;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+
+}
+p {
+    font-family: Proxima Nova,Open Sans,Corbel,Arial,sans-serif;
+    color:white;
+    text-shadow: 0px 0px 3px black;
+
+}
+b {
+    font-family: Proxima Nova,Open Sans,Corbel,Arial,sans-serif;
+    color:white;
+    text-shadow: 0px 0px 3px black;
+
+}
+
+@media (max-width:800) {
+
+footer {
+    flex-direction: column;
+}
+
+}
