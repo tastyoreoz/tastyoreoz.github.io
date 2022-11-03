@@ -70,4 +70,7 @@ div.sbottom{
     nav {
         display: none;
     }
+    main{
+    width: 100%;
+    }
 }
