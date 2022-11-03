@@ -44,18 +44,14 @@ a.logo1, a.logo2 {
 a.logo2 {
     display: none;
 }
-a.logo:hover {
+a.logo1:hover, a.logo2:hover, a.sidebar:hover {
     padding: auto;
-    background: linear-gradient(90deg, #4a4a4a 0% 94%, #505050 100%);;
+    background: linear-gradient(90deg, #4a4a4a 0% 94%, #505050 100%);
 }
 a.sidebar{
     text-align: left;
     display: block;
     padding: 10px 0px 10px 25px; 
-}
-a.sidebar:hover {
-    padding: auto;
-    background: linear-gradient(90deg, #4a4a4a 0% 94%, #505050 100%);;
 }
 a:link, a:visited {
     color: rgb(210, 210, 210);
@@ -65,7 +61,6 @@ a.main:link {
     color: rgb(210, 210, 210);
     text-decoration: underline;
 }
-
 div.sbottom{
     position: fixed;
     bottom: 0px;
@@ -88,8 +83,8 @@ div.sbottom{
         box-shadow: 2px 2px 5px #000000;
         align-items: stretch;
     }
-    a.sidebar:hover {
-        background: linear-gradient(180deg, #4a4a4a 0% 74%, #505050 100%);;
+    a.sidebar:hover, a.logo2:hover {
+        background: linear-gradient(180deg, #4a4a4a 0% 74%, #505050 100%);
     }
     a.logo2 {
         text-align: center;
@@ -102,9 +97,6 @@ div.sbottom{
     }
     a.logo1 {
         display: none;
-    }
-    a.logo:hover {
-        background: linear-gradient(180deg, #4a4a4a 0% 74%, #505050 100%);;
     }
     a.sidebar{
         text-align: center;
