@@ -65,3 +65,9 @@ div.sbottom{
     left: 0px;
     width: 200px;
 }
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
