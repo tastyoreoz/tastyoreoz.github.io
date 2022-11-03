@@ -44,3 +44,11 @@ a:hover {
     padding: auto;
     background: linear-gradient(90deg, #4a4a4a 0% 94%, #505050 100%);;
 }
+a:link {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
