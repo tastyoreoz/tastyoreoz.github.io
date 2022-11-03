@@ -35,11 +35,14 @@ section {
     overflow:auto;
     text-align: justify;
 }
-a.logo {
+a.logo1, a.logo2 {
     text-align: left;
     display: block;
     padding: 20px 0px 20px 25px;
     font-size: 24px;
+}
+a.logo2 {
+    display: none;
 }
 a.logo:hover {
     padding: auto;
@@ -54,7 +57,7 @@ a.sidebar:hover {
     padding: auto;
     background: linear-gradient(90deg, #4a4a4a 0% 94%, #505050 100%);;
 }
-a:link {
+a:link, a:visited {
     color: rgb(210, 210, 210);
     text-decoration: none;
 }
@@ -62,10 +65,7 @@ a.main:link {
     color: rgb(210, 210, 210);
     text-decoration: underline;
 }
-a:visited{
-    color: rgb(210, 210, 210);
-    text-decoration: none;
-}
+
 div.sbottom{
     position: fixed;
     bottom: 0px;
@@ -91,14 +91,17 @@ div.sbottom{
     a.sidebar:hover {
         background: linear-gradient(180deg, #4a4a4a 0% 74%, #505050 100%);;
     }
-    a.logo {
+    a.logo2 {
         text-align: center;
         display: inline-block;
         font-size: 16px;
-        width: 25%;
+        width: 20%;
         height: 100%;
         padding: 15px 0px 15px 0px ;
 
+    }
+    a.logo1 {
+        display: none;
     }
     a.logo:hover {
         background: linear-gradient(180deg, #4a4a4a 0% 74%, #505050 100%);;
