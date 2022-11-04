@@ -52,11 +52,11 @@ a.sidebar{
     display: block;
     padding: 10px 0px 10px 25px; 
 }
-a:link, a:visited {
+a.logo1:link, a.logo2:link, a.sidebar:link, a:visited {
     color: rgb(210, 210, 210);
     text-decoration: none;
 }
-a.main:link {
+a:link {
     color: rgb(210, 210, 210);
     text-decoration: underline;
 }
